@@ -1,0 +1,1 @@
+--pass 1 ¨Crc-lookahead 32 --preset ultrafast --min-keyint 1 --input ${sequence_dir}/${sequence_name} --input-res ${width}x${height} --fps ${framerate} --ref 4 --frame-thread 1 --no-wpp --bitrate ${rate} --no-pmode --no-pme --slices 0 --lookahead-slices 0 --psnr --tune psnr --qg-size 64 --b-adapt 2 --bframes 15 --keyint 5000 -o output-pass1.265
