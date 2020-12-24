@@ -47,3 +47,6 @@ generation, and available flag, which are seperated by space. It should be notic
 the reference YUV is the hight fidelity video. For example, in CISQ, BasketballDrive\_832x480\_ref.yuv
 is the reference video.
 
+### Data Analysis
+rating\_variant\_analyze.m is applied the analyze the recodes generated
+by video\_seq\_temporal\_conv\_ssim\_artifacts\_vs\_subject.m.
