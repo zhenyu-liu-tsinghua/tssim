@@ -29,7 +29,7 @@ of x265 is for generating ''x265\_2pass.log'', which will be applied in TSSIM.
 
 ### compute TSSIM
 
-video\_seq\_temporal\_conv\_ssim\_evaluate.m is the main program
+video\_seq\_temporal\_conv\_ssim\_artifacts\_vs\_subject.m is the main program
 for the TSSIM computation. At present, we support YUV420 8-bit
 video format.<br />
 
