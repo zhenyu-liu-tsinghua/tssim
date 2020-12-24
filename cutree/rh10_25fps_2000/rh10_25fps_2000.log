@@ -1,0 +1,42 @@
+000 (047.000.000) 2020-12-21 22:53:58 Job submitted from host: <10.0.0.63:9618?PrivAddr=%3c10.0.0.63:9618%3fsock%3dschedd_6827_5527%3e&PrivNet=ryzen7-1700x&addrs=10.0.0.63-9618&alias=ryzen7-1700x&noUDP&sock=schedd_6827_5527>
+...
+040 (047.000.000) 2020-12-21 22:54:11 Started transferring input files
+	Transferring to host: <10.0.0.63:9618?PrivAddr=%3c10.0.0.63:9618%3fsock%3dslot6_6886_8f51_24%3e&PrivNet=ryzen7-1700x&addrs=10.0.0.63-9618&alias=ryzen7-1700x&noUDP&sock=slot6_6886_8f51_24>
+...
+040 (047.000.000) 2020-12-21 22:54:11 Finished transferring input files
+...
+001 (047.000.000) 2020-12-21 22:54:12 Job executing on host: <10.0.0.63:9618?sock=startd_6827_5527>
+...
+006 (047.000.000) 2020-12-21 22:54:21 Image size of job updated: 288704
+	197  -  MemoryUsage of job (MB)
+	201612  -  ResidentSetSize of job (KB)
+...
+006 (047.000.000) 2020-12-21 22:59:22 Image size of job updated: 329236
+	228  -  MemoryUsage of job (MB)
+	232540  -  ResidentSetSize of job (KB)
+...
+006 (047.000.000) 2020-12-21 23:02:01 Image size of job updated: 329392
+	228  -  MemoryUsage of job (MB)
+	232540  -  ResidentSetSize of job (KB)
+...
+040 (047.000.000) 2020-12-21 23:02:01 Started transferring output files
+...
+040 (047.000.000) 2020-12-21 23:02:02 Finished transferring output files
+...
+005 (047.000.000) 2020-12-21 23:02:02 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:07:47, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:07:47, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	3396284  -  Run Bytes Sent By Job
+	4532560  -  Run Bytes Received By Job
+	3396284  -  Total Bytes Sent By Job
+	4532560  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :  7758        4500   2904372 
+	   Memory (MB)          :   228           5      2000 
+
+	Job terminated of its own accord at 2020-12-22T04:02:01Z.
+...

@@ -1,0 +1,44 @@
+000 (16974.000.000) 09/16 06:59:34 Job submitted from host: <10.0.0.61:9618?PrivAddr=%3c10.0.0.61:9618%3fsock%3dschedd_2097_f230_4%3e&PrivNet=tr2990wx-fit4305&addrs=10.0.0.61-9618&alias=tr2990wx-fit4305&noUDP&sock=schedd_2097_f230_4>
+...
+040 (16974.000.000) 09/16 07:47:42 Started transferring input files
+	Transferring to host: <10.0.0.61:9618?PrivAddr=%3c10.0.0.61:9618%3fsock%3dstarter_2457_edbd_3225%3e&PrivNet=tr2990wx-fit4305&addrs=10.0.0.61-9618&alias=tr2990wx-fit4305&noUDP&sock=starter_2457_edbd_3225>
+...
+040 (16974.000.000) 09/16 07:47:42 Finished transferring input files
+...
+001 (16974.000.000) 09/16 07:47:43 Job executing on host: <10.0.0.61:9618?sock=startd_2097_f230_5>
+...
+006 (16974.000.000) 09/16 07:47:51 Image size of job updated: 202600
+	198  -  MemoryUsage of job (MB)
+	202600  -  ResidentSetSize of job (KB)
+...
+006 (16974.000.000) 09/16 07:52:51 Image size of job updated: 268684
+	263  -  MemoryUsage of job (MB)
+	268684  -  ResidentSetSize of job (KB)
+...
+006 (16974.000.000) 09/16 07:57:52 Image size of job updated: 270572
+	265  -  MemoryUsage of job (MB)
+	270572  -  ResidentSetSize of job (KB)
+...
+006 (16974.000.000) 09/16 08:02:48 Image size of job updated: 271376
+	265  -  MemoryUsage of job (MB)
+	270572  -  ResidentSetSize of job (KB)
+...
+040 (16974.000.000) 09/16 08:02:48 Started transferring output files
+...
+040 (16974.000.000) 09/16 08:02:49 Finished transferring output files
+...
+005 (16974.000.000) 09/16 08:02:49 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:15:00, Sys 0 00:00:06  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:15:00, Sys 0 00:00:06  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	3326576  -  Run Bytes Sent By Job
+	4532560  -  Run Bytes Received By Job
+	3326576  -  Total Bytes Sent By Job
+	4532560  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :  7691        4500    927896 
+	   Memory (MB)          :   265           5      2006 
+...

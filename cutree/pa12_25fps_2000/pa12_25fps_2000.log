@@ -1,0 +1,42 @@
+000 (013.000.000) 2020-12-21 07:19:59 Job submitted from host: <10.0.0.63:9618?PrivAddr=%3c10.0.0.63:9618%3fsock%3dschedd_6827_5527%3e&PrivNet=ryzen7-1700x&addrs=10.0.0.63-9618&alias=ryzen7-1700x&noUDP&sock=schedd_6827_5527>
+...
+040 (013.000.000) 2020-12-21 07:20:18 Entered queue to transfer input files
+	Transferring to host: <10.0.0.63:9618?PrivAddr=%3c10.0.0.63:9618%3fsock%3dslot12_6886_8f51_17%3e&PrivNet=ryzen7-1700x&addrs=10.0.0.63-9618&alias=ryzen7-1700x&noUDP&sock=slot12_6886_8f51_17>
+...
+040 (013.000.000) 2020-12-21 07:20:21 Started transferring input files
+	Seconds spent in queue: 3
+...
+040 (013.000.000) 2020-12-21 07:20:21 Finished transferring input files
+...
+001 (013.000.000) 2020-12-21 07:20:22 Job executing on host: <10.0.0.63:9618?sock=startd_6827_5527>
+...
+006 (013.000.000) 2020-12-21 07:20:31 Image size of job updated: 268768
+	191  -  MemoryUsage of job (MB)
+	195280  -  ResidentSetSize of job (KB)
+...
+006 (013.000.000) 2020-12-21 07:25:32 Image size of job updated: 329544
+	229  -  MemoryUsage of job (MB)
+	234176  -  ResidentSetSize of job (KB)
+...
+040 (013.000.000) 2020-12-21 07:27:16 Started transferring output files
+	Seconds spent in queue: 418
+...
+040 (013.000.000) 2020-12-21 07:27:17 Finished transferring output files
+...
+005 (013.000.000) 2020-12-21 07:27:17 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:06:52, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:06:52, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	3259470  -  Run Bytes Sent By Job
+	4532560  -  Run Bytes Received By Job
+	3259470  -  Total Bytes Sent By Job
+	4532560  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :  7625        4500   2904372 
+	   Memory (MB)          :   229           5      2000 
+
+	Job terminated of its own accord at 2020-12-21T12:27:16Z.
+...
