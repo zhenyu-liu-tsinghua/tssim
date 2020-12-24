@@ -1,0 +1,36 @@
+000 (16899.000.000) 09/16 06:59:02 Job submitted from host: <10.0.0.61:9618?PrivAddr=%3c10.0.0.61:9618%3fsock%3dschedd_2097_f230_4%3e&PrivNet=tr2990wx-fit4305&addrs=10.0.0.61-9618&alias=tr2990wx-fit4305&noUDP&sock=schedd_2097_f230_4>
+...
+040 (16899.000.000) 09/16 07:23:39 Started transferring input files
+	Transferring to host: <10.0.0.62:9618?CCBID=10.0.0.61:9618%3fPrivNet%3dtr2990wx-fit4305%26addrs%3d10.0.0.61-9618%26alias%3dtr2990wx-fit4305%26noUDP%26sock%3dcollector#372&PrivAddr=%3c10.0.0.62:9618%3fsock%3dslot10_20616_963f_251%3e&PrivNet=e5-2620&addrs=10.0.0.62-9618&alias=e5-2620&noUDP&sock=slot10_20616_963f_251>
+...
+040 (16899.000.000) 09/16 07:23:39 Finished transferring input files
+...
+001 (16899.000.000) 09/16 07:23:40 Job executing on host: <10.0.0.62:9618?CCBID=10.0.0.61:9618%3fPrivNet%3dtr2990wx-fit4305%26addrs%3d10.0.0.61-9618%26alias%3dtr2990wx-fit4305%26noUDP%26sock%3dcollector#372&addrs=10.0.0.62-9618&alias=e5-2620&noUDP&sock=startd_20581_6ec0>
+...
+006 (16899.000.000) 09/16 07:23:49 Image size of job updated: 230620
+	226  -  MemoryUsage of job (MB)
+	230620  -  ResidentSetSize of job (KB)
+...
+006 (16899.000.000) 09/16 07:28:50 Image size of job updated: 269184
+	263  -  MemoryUsage of job (MB)
+	269184  -  ResidentSetSize of job (KB)
+...
+040 (16899.000.000) 09/16 07:33:33 Started transferring output files
+...
+040 (16899.000.000) 09/16 07:33:34 Finished transferring output files
+...
+005 (16899.000.000) 09/16 07:33:34 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:09:52, Sys 0 00:00:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:09:52, Sys 0 00:00:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	3662155  -  Run Bytes Sent By Job
+	4532560  -  Run Bytes Received By Job
+	3662155  -  Total Bytes Sent By Job
+	4532560  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :  8020        4500   3909811 
+	   Memory (MB)          :   263           5      8040 
+...

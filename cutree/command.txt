@@ -1,0 +1,14 @@
+./x265 --input /workspace-r610/video_sequence/origCfP/BlowingBubbles_416x240_50.yuv --input-res 416x240 --fps 50 --csv result.csv --tu-intra-depth 1 --tu-inter-depth 1 --no-tskip --frame-thread 1 -o output.265
+
+gdb -tui -args ./x265 --input /workspace-r610/video_sequence/origCfP/BlowingBubbles_416x240_50.yuv --input-res 416x240 --fps 50 --tu-intra-depth 1 --tu-inter-depth 1 --no-tskip --frame-thread 1  --no-wpp --lookahead-slices 0 --lookahead-threads 0 --no-pmode --no-pme --b-adapt 0 --bframes 4 --bitrate 500 -o output.265
+
+gdb -tui -args ./x265 --input  /workspace-r610/video_sequence/origCfP/BasketballPass_416x240_50.yuv --input-res 416x240 --fps 50 --tu-intra-depth 1 --tu-inter-depth 1 --no-tskip --frame-thread 1 --no-wpp --bitrate 500  --no-pmode --no-pme --slices 0 --lookahead-slices 0 --psnr --tune psnr --b-adapt 2 --bframes 8 -o output.265
+
+gdb -tui -args ./x265 --input /workspace-r610/video_sequence/origCfP/FourPeople_1280x720_60.yuv --input-res 1280x720 --fps 60 --tu-intra-depth 1 --tu-inter-depth 1 --no-tskip --frame-thread 1 --no-wpp --bitrate 1500 --no-pmode --no-pme --slices 0 --lookahead-slices 0 --psnr --tune psnr --b-adapt 2 --bframes 8 --keyint -1 --frames 200 -o output.265
+
+gdb -tui -args ./x265 --input /workspace-r610/video_sequence/origCfP/FourPeople_1280x720_60.yuv --input-res 1280x720 --fps 60 --tu-intra-depth 1 --tu-inter-depth 1 --no-tskip --frame-thread 1 --no-wpp --bitrate 1500 --no-pmode --no-pme --slices 0 --lookahead-slices 0 --psnr --tune psnr --b-adapt 2 --bframes 8 --keyint -1 --frames 200 -o output.265
+
+
+gdb -tui -args ../../../x265 --input /workspace-r610/video_sequence/origCfP/SlideEditing_1280x720_30.yuv --input-res 1280x720 --fps 30 --tu-intra-depth 1 --tu-inter-depth 1 --no-tskip --frame-thread 1 --no-wpp --bitrate 1000 --no-pmode --no-pme --slices 0 --lookahead-slices 0 --psnr --tune psnr --b-adapt 1 --bframes 8 --keyint -1 --rskip --rd 2 --fast-intra --early-skip -o output.265
+
+gdb -tui -args ../../../x265 --input /workspace-r610/video_sequence/origCfP/SlideEditing_1280x720_30.yuv --input-res 1280x720 --fps 30 --tu-intra-depth 1 --tu-inter-depth 1 --no-tskip --frame-thread 4 --bitrate 1000 --psnr --tune psnr --b-adapt 1 --bframes 8 --keyint -1 --rskip --rd 2 --fast-intra --early-skip -o output.265

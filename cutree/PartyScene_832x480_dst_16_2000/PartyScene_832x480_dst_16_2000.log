@@ -1,0 +1,36 @@
+000 (16957.000.000) 09/16 06:59:26 Job submitted from host: <10.0.0.61:9618?PrivAddr=%3c10.0.0.61:9618%3fsock%3dschedd_2097_f230_4%3e&PrivNet=tr2990wx-fit4305&addrs=10.0.0.61-9618&alias=tr2990wx-fit4305&noUDP&sock=schedd_2097_f230_4>
+...
+040 (16957.000.000) 09/16 07:42:41 Started transferring input files
+	Transferring to host: <10.0.0.64:9618?CCBID=10.0.0.61:9618%3fPrivNet%3dtr2990wx-fit4305%26addrs%3d10.0.0.61-9618%26alias%3dtr2990wx-fit4305%26noUDP%26sock%3dcollector#358&PrivAddr=%3c10.0.0.64:9618%3fsock%3dslot3_2714_0227_425%3e&PrivNet=i5-6500&addrs=10.0.0.64-9618&alias=i5-6500&noUDP&sock=slot3_2714_0227_425>
+...
+040 (16957.000.000) 09/16 07:42:41 Finished transferring input files
+...
+001 (16957.000.000) 09/16 07:42:42 Job executing on host: <10.0.0.64:9618?CCBID=10.0.0.61:9618%3fPrivNet%3dtr2990wx-fit4305%26addrs%3d10.0.0.61-9618%26alias%3dtr2990wx-fit4305%26noUDP%26sock%3dcollector#358&addrs=10.0.0.64-9618&alias=i5-6500&noUDP&sock=startd_2679_264f>
+...
+006 (16957.000.000) 09/16 07:42:50 Image size of job updated: 278440
+	272  -  MemoryUsage of job (MB)
+	278440  -  ResidentSetSize of job (KB)
+...
+006 (16957.000.000) 09/16 07:47:50 Image size of job updated: 537688
+	526  -  MemoryUsage of job (MB)
+	537688  -  ResidentSetSize of job (KB)
+...
+040 (16957.000.000) 09/16 07:49:00 Started transferring output files
+...
+040 (16957.000.000) 09/16 07:49:00 Finished transferring output files
+...
+005 (16957.000.000) 09/16 07:49:00 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:06:14, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:06:14, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	4141247  -  Run Bytes Sent By Job
+	4532560  -  Run Bytes Received By Job
+	4141247  -  Total Bytes Sent By Job
+	4532560  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :  8488        4500  11856972 
+	   Memory (MB)          :   526           5      3939 
+...

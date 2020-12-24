@@ -1,0 +1,38 @@
+000 (057.000.000) 2020-12-21 22:54:04 Job submitted from host: <10.0.0.63:9618?PrivAddr=%3c10.0.0.63:9618%3fsock%3dschedd_6827_5527%3e&PrivNet=ryzen7-1700x&addrs=10.0.0.63-9618&alias=ryzen7-1700x&noUDP&sock=schedd_6827_5527>
+...
+040 (057.000.000) 2020-12-21 22:54:14 Started transferring input files
+	Transferring to host: <10.0.0.63:9618?PrivAddr=%3c10.0.0.63:9618%3fsock%3dslot16_6886_8f51_34%3e&PrivNet=ryzen7-1700x&addrs=10.0.0.63-9618&alias=ryzen7-1700x&noUDP&sock=slot16_6886_8f51_34>
+...
+040 (057.000.000) 2020-12-21 22:54:14 Finished transferring input files
+...
+001 (057.000.000) 2020-12-21 22:54:15 Job executing on host: <10.0.0.63:9618?sock=startd_6827_5527>
+...
+006 (057.000.000) 2020-12-21 22:54:24 Image size of job updated: 207180
+	203  -  MemoryUsage of job (MB)
+	207180  -  ResidentSetSize of job (KB)
+...
+006 (057.000.000) 2020-12-21 22:59:25 Image size of job updated: 329136
+	232  -  MemoryUsage of job (MB)
+	236760  -  ResidentSetSize of job (KB)
+...
+040 (057.000.000) 2020-12-21 23:03:55 Started transferring output files
+...
+040 (057.000.000) 2020-12-21 23:03:56 Finished transferring output files
+...
+005 (057.000.000) 2020-12-21 23:03:57 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:09:37, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:09:37, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	3950389  -  Run Bytes Sent By Job
+	4532560  -  Run Bytes Received By Job
+	3950389  -  Total Bytes Sent By Job
+	4532560  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            :  8299        4500   2904372 
+	   Memory (MB)          :   232           5      2000 
+
+	Job terminated of its own accord at 2020-12-22T04:03:55Z.
+...

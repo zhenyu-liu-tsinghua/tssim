@@ -1,0 +1,6 @@
+/home/workspace/zhenyu/x265-iframe-adpatinitqp-amortize-slicetye-decide-bpframeqp-cutreebpstrength-multicore-purcutreelog/build/linux/CMakeFiles/clean-generated.dir
+/home/workspace/zhenyu/x265-iframe-adpatinitqp-amortize-slicetye-decide-bpframeqp-cutreebpstrength-multicore-purcutreelog/build/linux/CMakeFiles/cli.dir
+/home/workspace/zhenyu/x265-iframe-adpatinitqp-amortize-slicetye-decide-bpframeqp-cutreebpstrength-multicore-purcutreelog/build/linux/common/CMakeFiles/common.dir
+/home/workspace/zhenyu/x265-iframe-adpatinitqp-amortize-slicetye-decide-bpframeqp-cutreebpstrength-multicore-purcutreelog/build/linux/encoder/CMakeFiles/encoder.dir
+/home/workspace/zhenyu/x265-iframe-adpatinitqp-amortize-slicetye-decide-bpframeqp-cutreebpstrength-multicore-purcutreelog/build/linux/CMakeFiles/uninstall.dir
+/home/workspace/zhenyu/x265-iframe-adpatinitqp-amortize-slicetye-decide-bpframeqp-cutreebpstrength-multicore-purcutreelog/build/linux/CMakeFiles/x265-static.dir

@@ -1,0 +1,1 @@
+/home/video_sequence/origCfP BQMall_832x480_60.yuv 832 480 60 300 YES
