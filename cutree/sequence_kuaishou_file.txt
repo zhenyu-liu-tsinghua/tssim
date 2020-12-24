@@ -1,4 +1,0 @@
-/home/video_sequence/kuaishou/ girl_720x1280_20.yuv 720 1280 20 500 YES
-/home/video_sequence/kuaishou/ man_720x1280_20.yuv 720 1280 20 500 YES
-/home/video_sequence/kuaishou/ rabbitface_720x1280_20.yuv 720 1280 20 500 YES
-/home/video_sequence/kuaishou/ woman_720x1280_20.yuv 720 1280 20 500 YES
