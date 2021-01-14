@@ -33,19 +33,29 @@ video\_seq\_temporal\_conv\_ssim\_artifacts\_vs\_subject.m is the main program
 for the TSSIM computation. At present, we support YUV420 8-bit
 video format.<br />
 
-The inputs include _dec\_seq\_base\_dir_, _seq\_cfg_ and _x265\_log_.<br />
+The inputs include _dec\_seq\_base\_dir_ and _seq\_cfg_.<br />
 
-_x265\_log_:  The log file produced in the previous step. In our design, _x265\_log_ is 
-the default name ''x265_2pass.log''.<br />
-_dec\_seq\_base\_dir_: The base directory of the distorted videos. In the base directory,
+_dec\_seq\_base\_dir_: The base directory of the temporal analysis for distorted videos.
+For example, in this example, its value is ''./cutree/''. In the base directory,
 each video has its dedicated subdirectory. The subdirectory name is determined by the 
-configurations in _seq\_cfg_.<br />
+configurations in _seq\_cfg_, which will be explained.<br />
+
 _seq\_cfg_: Each line in _seq\_cfg_ contains the following terms in order: The directory of 
-reference YUV videos without distortions, reference YUV file name, 
-frame width, frame height, frame rate, frame rate in log
-generation, and available flag, which are seperated by space. It should be noticed that,
-the reference YUV is the hight fidelity video. For example, in CISQ, BasketballDrive\_832x480\_ref.yuv
-is the reference video.
+YUV videos, YUV file name, frame width, frame height, frame rate, bitrate in log
+generation, and video type (REF:the reference video; DEC:the decoded video).<br />
+
+For example, the first line in sequence\_cisqdb\_subject\_evaluation\_file.txt is<br />
+/Users/zhenyu/Documents/video\_sequence/cisq\_database BasketballDrive\_832x480\_ref.yuv 832 480 50 2000 REF<br />
+which indicates that the reference ''BasketballDrive\_832x480\_ref.yuv'' in the
+diretory ''/Users/zhenyu/Documents/video\_sequence/cisq\_database'' with 832x480 frame
+size and 50fps frame rate.<br />
+
+The second line, i.e.,<br />
+/Users/zhenyu/Documents/video\_sequence/cisq\_database BasketballDrive\_832x480\_dst\_16.yuv 832 480 50 2000 DEC
+indciates that ''BasketballDrive\_832x480\_dst\_16.yuv'' in ''/Users/zhenyu/Documents/video\_sequence/cisq\_database''
+is a decoded video under quality analysis. Its temporal dependecy log file (x265\_2pass.log) is determined
+by the ''YUV file name'' and the ''bitrate'' terms. For instance, the x265\_2pass.log of
+''BasketballDrive\_832x480\_dst\_16.yuv'' is saved in the directory ''./cutree/BasketballDrive\_832x480\_dst\_16\_2000''.
 
 ### Data Analysis
 rating\_variant\_analyze.m is applied the analyze the recodes generated
