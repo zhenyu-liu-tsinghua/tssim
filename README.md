@@ -54,7 +54,7 @@ The second line, i.e.,<br />
 /Users/zhenyu/Documents/video\_sequence/cisq\_database BasketballDrive\_832x480\_dst\_16.yuv 832 480 50 2000 DEC
 indciates that ''BasketballDrive\_832x480\_dst\_16.yuv'' in ''/Users/zhenyu/Documents/video\_sequence/cisq\_database''
 is a decoded video under quality analysis. Its temporal dependecy log file (x265\_2pass.log) is determined
-by the ''YUV file name'' and the ''bitrate'' terms. For instance, the x265\_2pass.log of
+by the ''YUV file name'' and the ''bitrate'' terms. For instance, the ''x265\_2pass.log'' of
 ''BasketballDrive\_832x480\_dst\_16.yuv'' is saved in the directory ''./cutree/BasketballDrive\_832x480\_dst\_16\_2000''.
 
 ### Data Analysis
